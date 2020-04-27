@@ -16,6 +16,11 @@ public:
     MyWidget(QWidget *parent = nullptr);
     ~MyWidget();
 
+private slots:
+    void on_pushBtn1_toggled(bool checked);
+    void lineEdit2_returnPressed();
+    void spinBoxChangeValue(int value);
+
 private:
     Ui::MyWidget *ui;
 };
