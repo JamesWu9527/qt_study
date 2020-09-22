@@ -15,6 +15,7 @@ public:
 private:
     void myslots();
     void ChangeWindow();    //处理子窗口过来的信号
+    void ChangeWindowDebug(int a, QString str);   //带参数的槽处理
 
 private:
     MySubWidget sub;

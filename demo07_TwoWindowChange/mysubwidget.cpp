@@ -14,4 +14,6 @@ MySubWidget::MySubWidget(QWidget *parent) : QWidget(parent)
 void MySubWidget::ChangeSlots()
 {
     emit ChangeSignal();
+
+    emit ChangeSignal(100,"测试带参数的信号");
 }

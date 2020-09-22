@@ -11,6 +11,7 @@ public:
 
 signals:
     void ChangeSignal();
+    void ChangeSignal(int a, QString str);
 
 private:
     void ChangeSlots();
